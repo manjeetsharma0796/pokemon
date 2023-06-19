@@ -15,7 +15,7 @@
 <tr>
   <td class="number">1</td>
   <td>Bulbasaur</td>
-  <td>grass,poison</td>
+  <td><span class="grass">grass</span>,<span class="poison">poison</span></td>
   <td class="number">45</td>
   <td class="number">45</td>
   <td class="number">64</td>
@@ -26,7 +26,7 @@
 <tr>
   <td class="number">2</td>
   <td>Ivysaur</td>
-  <td>grass,poison</td>
+  <td><span class="grass">grass</span>,<span class="poison">poison</span></td>
   <td class="number">60</td>
   <td class="number">60</td>
   <td class="number">142</td>
@@ -37,7 +37,7 @@
 <tr>
   <td class="number">3</td>
   <td>Venusaur</td>
-  <td>grass,poison</td>
+  <td><span class="grass">grass</span>,<span class="poison">poison</span></td>
   <td class="number">80</td>
   <td class="number">80</td>
   <td class="number">236</td>
@@ -48,7 +48,7 @@
 <tr>
   <td class="number">4</td>
   <td>Charmander</td>
-  <td>fire</td>
+  <td><span class="fire">fire</span></td>
   <td class="number">65</td>
   <td class="number">39</td>
   <td class="number">62</td>
@@ -59,7 +59,7 @@
 <tr>
   <td class="number">5</td>
   <td>Charmeleon</td>
-  <td>fire</td>
+  <td><span class="fire">fire</span></td>
   <td class="number">80</td>
   <td class="number">58</td>
   <td class="number">142</td>
@@ -70,7 +70,7 @@
 <tr>
   <td class="number">6</td>
   <td>Charizard</td>
-  <td>fire,flying</td>
+  <td><span class="fire">fire</span>,<span class="flying">flying</span></td>
   <td class="number">100</td>
   <td class="number">78</td>
   <td class="number">240</td>
@@ -81,7 +81,7 @@
 <tr>
   <td class="number">7</td>
   <td>Squirtle</td>
-  <td>water</td>
+  <td><span class="water">water</span></td>
   <td class="number">43</td>
   <td class="number">44</td>
   <td class="number">63</td>
@@ -92,7 +92,7 @@
 <tr>
   <td class="number">8</td>
   <td>Wartortle</td>
-  <td>water</td>
+  <td><span class="water">water</span></td>
   <td class="number">58</td>
   <td class="number">59</td>
   <td class="number">142</td>
@@ -103,7 +103,7 @@
 <tr>
   <td class="number">9</td>
   <td>Blastoise</td>
-  <td>water</td>
+  <td><span class="water">water</span></td>
   <td class="number">78</td>
   <td class="number">79</td>
   <td class="number">239</td>
@@ -114,7 +114,7 @@
 <tr>
   <td class="number">10</td>
   <td>Caterpie</td>
-  <td>bug</td>
+  <td><span class="bug">bug</span></td>
   <td class="number">45</td>
   <td class="number">45</td>
   <td class="number">39</td>
@@ -125,7 +125,7 @@
 <tr>
   <td class="number">11</td>
   <td>Metapod</td>
-  <td>bug</td>
+  <td><span class="bug">bug</span></td>
   <td class="number">30</td>
   <td class="number">50</td>
   <td class="number">72</td>
@@ -136,7 +136,7 @@
 <tr>
   <td class="number">12</td>
   <td>Butterfree</td>
-  <td>bug,flying</td>
+  <td><span class="bug">bug</span>,<span class="flying">flying</span></td>
   <td class="number">70</td>
   <td class="number">60</td>
   <td class="number">178</td>
@@ -147,7 +147,7 @@
 <tr>
   <td class="number">13</td>
   <td>Weedle</td>
-  <td>bug,poison</td>
+  <td><span class="bug">bug</span>,<span class="poison">poison</span></td>
   <td class="number">50</td>
   <td class="number">40</td>
   <td class="number">39</td>
@@ -158,7 +158,7 @@
 <tr>
   <td class="number">14</td>
   <td>Kakuna</td>
-  <td>bug,poison</td>
+  <td><span class="bug">bug</span>,<span class="poison">poison</span></td>
   <td class="number">35</td>
   <td class="number">45</td>
   <td class="number">72</td>
@@ -169,7 +169,7 @@
 <tr>
   <td class="number">15</td>
   <td>Beedrill</td>
-  <td>bug,poison</td>
+  <td><span class="bug">bug</span>,<span class="poison">poison</span></td>
   <td class="number">75</td>
   <td class="number">65</td>
   <td class="number">178</td>
@@ -180,7 +180,7 @@
 <tr>
   <td class="number">16</td>
   <td>Pidgey</td>
-  <td>normal,flying</td>
+  <td><span class="normal">normal</span>,<span class="flying">flying</span></td>
   <td class="number">56</td>
   <td class="number">40</td>
   <td class="number">50</td>
@@ -191,7 +191,7 @@
 <tr>
   <td class="number">17</td>
   <td>Pidgeotto</td>
-  <td>normal,flying</td>
+  <td><span class="normal">normal</span>,<span class="flying">flying</span></td>
   <td class="number">71</td>
   <td class="number">63</td>
   <td class="number">122</td>
@@ -202,7 +202,7 @@
 <tr>
   <td class="number">18</td>
   <td>Pidgeot</td>
-  <td>normal,flying</td>
+  <td><span class="normal">normal</span>,<span class="flying">flying</span></td>
   <td class="number">101</td>
   <td class="number">83</td>
   <td class="number">216</td>
@@ -213,7 +213,7 @@
 <tr>
   <td class="number">19</td>
   <td>Rattata</td>
-  <td>normal</td>
+  <td><span class="normal">normal</span></td>
   <td class="number">72</td>
   <td class="number">30</td>
   <td class="number">51</td>
@@ -224,7 +224,7 @@
 <tr>
   <td class="number">20</td>
   <td>Raticate</td>
-  <td>normal</td>
+  <td><span class="normal">normal</span></td>
   <td class="number">97</td>
   <td class="number">55</td>
   <td class="number">145</td>
@@ -235,7 +235,7 @@
 <tr>
   <td class="number">21</td>
   <td>Spearow</td>
-  <td>normal,flying</td>
+  <td><span class="normal">normal</span>,<span class="flying">flying</span></td>
   <td class="number">70</td>
   <td class="number">40</td>
   <td class="number">52</td>
@@ -246,7 +246,7 @@
 <tr>
   <td class="number">22</td>
   <td>Fearow</td>
-  <td>normal,flying</td>
+  <td><span class="normal">normal</span>,<span class="flying">flying</span></td>
   <td class="number">100</td>
   <td class="number">65</td>
   <td class="number">155</td>
@@ -257,7 +257,7 @@
 <tr>
   <td class="number">23</td>
   <td>Ekans</td>
-  <td>poison</td>
+  <td><span class="poison">poison</span></td>
   <td class="number">55</td>
   <td class="number">35</td>
   <td class="number">58</td>
@@ -268,7 +268,7 @@
 <tr>
   <td class="number">24</td>
   <td>Arbok</td>
-  <td>poison</td>
+  <td><span class="poison">poison</span></td>
   <td class="number">80</td>
   <td class="number">60</td>
   <td class="number">157</td>
@@ -279,7 +279,7 @@
 <tr>
   <td class="number">25</td>
   <td>Pikachu</td>
-  <td>electric</td>
+  <td><span class="electric">electric</span></td>
   <td class="number">90</td>
   <td class="number">35</td>
   <td class="number">112</td>
@@ -290,7 +290,7 @@
 <tr>
   <td class="number">26</td>
   <td>Raichu</td>
-  <td>electric</td>
+  <td><span class="electric">electric</span></td>
   <td class="number">110</td>
   <td class="number">60</td>
   <td class="number">218</td>
@@ -301,7 +301,7 @@
 <tr>
   <td class="number">27</td>
   <td>Sandshrew</td>
-  <td>ground</td>
+  <td><span class="ground">ground</span></td>
   <td class="number">40</td>
   <td class="number">50</td>
   <td class="number">60</td>
@@ -312,7 +312,7 @@
 <tr>
   <td class="number">28</td>
   <td>Sandslash</td>
-  <td>ground</td>
+  <td><span class="ground">ground</span></td>
   <td class="number">65</td>
   <td class="number">75</td>
   <td class="number">158</td>
@@ -323,7 +323,7 @@
 <tr>
   <td class="number">29</td>
   <td>Nidoran-f</td>
-  <td>poison</td>
+  <td><span class="poison">poison</span></td>
   <td class="number">41</td>
   <td class="number">55</td>
   <td class="number">55</td>
@@ -334,7 +334,7 @@
 <tr>
   <td class="number">30</td>
   <td>Nidorina</td>
-  <td>poison</td>
+  <td><span class="poison">poison</span></td>
   <td class="number">56</td>
   <td class="number">70</td>
   <td class="number">128</td>
@@ -345,7 +345,7 @@
 <tr>
   <td class="number">31</td>
   <td>Nidoqueen</td>
-  <td>poison,ground</td>
+  <td><span class="poison">poison</span>,<span class="ground">ground</span></td>
   <td class="number">76</td>
   <td class="number">90</td>
   <td class="number">227</td>
@@ -356,7 +356,7 @@
 <tr>
   <td class="number">32</td>
   <td>Nidoran-m</td>
-  <td>poison</td>
+  <td><span class="poison">poison</span></td>
   <td class="number">50</td>
   <td class="number">46</td>
   <td class="number">55</td>
@@ -367,7 +367,7 @@
 <tr>
   <td class="number">33</td>
   <td>Nidorino</td>
-  <td>poison</td>
+  <td><span class="poison">poison</span></td>
   <td class="number">65</td>
   <td class="number">61</td>
   <td class="number">128</td>
@@ -378,7 +378,7 @@
 <tr>
   <td class="number">34</td>
   <td>Nidoking</td>
-  <td>poison,ground</td>
+  <td><span class="poison">poison</span>,<span class="ground">ground</span></td>
   <td class="number">85</td>
   <td class="number">81</td>
   <td class="number">227</td>
@@ -388,8 +388,8 @@
 </tr>
 <tr>
   <td class="number">35</td>
-  <td>Clefairy</td>
-  <td>fairy</td>
+  <td>Cle<span class="fairy">fairy</span></td>
+  <td><span class="fairy">fairy</span></td>
   <td class="number">35</td>
   <td class="number">70</td>
   <td class="number">113</td>
@@ -400,7 +400,7 @@
 <tr>
   <td class="number">36</td>
   <td>Clefable</td>
-  <td>fairy</td>
+  <td><span class="fairy">fairy</span></td>
   <td class="number">60</td>
   <td class="number">95</td>
   <td class="number">217</td>
@@ -411,7 +411,7 @@
 <tr>
   <td class="number">37</td>
   <td>Vulpix</td>
-  <td>fire</td>
+  <td><span class="fire">fire</span></td>
   <td class="number">65</td>
   <td class="number">38</td>
   <td class="number">60</td>
@@ -422,7 +422,7 @@
 <tr>
   <td class="number">38</td>
   <td>Ninetales</td>
-  <td>fire</td>
+  <td><span class="fire">fire</span></td>
   <td class="number">100</td>
   <td class="number">73</td>
   <td class="number">177</td>
@@ -433,7 +433,7 @@
 <tr>
   <td class="number">39</td>
   <td>Jigglypuff</td>
-  <td>normal,fairy</td>
+  <td><span class="normal">normal</span>,<span class="fairy">fairy</span></td>
   <td class="number">20</td>
   <td class="number">115</td>
   <td class="number">95</td>
@@ -444,7 +444,7 @@
 <tr>
   <td class="number">40</td>
   <td>Wigglytuff</td>
-  <td>normal,fairy</td>
+  <td><span class="normal">normal</span>,<span class="fairy">fairy</span></td>
   <td class="number">45</td>
   <td class="number">140</td>
   <td class="number">196</td>
@@ -455,7 +455,7 @@
 <tr>
   <td class="number">41</td>
   <td>Zubat</td>
-  <td>poison,flying</td>
+  <td><span class="poison">poison</span>,<span class="flying">flying</span></td>
   <td class="number">55</td>
   <td class="number">40</td>
   <td class="number">49</td>
@@ -466,7 +466,7 @@
 <tr>
   <td class="number">42</td>
   <td>Golbat</td>
-  <td>poison,flying</td>
+  <td><span class="poison">poison</span>,<span class="flying">flying</span></td>
   <td class="number">90</td>
   <td class="number">75</td>
   <td class="number">159</td>
@@ -477,7 +477,7 @@
 <tr>
   <td class="number">43</td>
   <td>Oddish</td>
-  <td>grass,poison</td>
+  <td><span class="grass">grass</span>,<span class="poison">poison</span></td>
   <td class="number">30</td>
   <td class="number">45</td>
   <td class="number">64</td>
@@ -488,7 +488,7 @@
 <tr>
   <td class="number">44</td>
   <td>Gloom</td>
-  <td>grass,poison</td>
+  <td><span class="grass">grass</span>,<span class="poison">poison</span></td>
   <td class="number">40</td>
   <td class="number">60</td>
   <td class="number">138</td>
@@ -499,7 +499,7 @@
 <tr>
   <td class="number">45</td>
   <td>Vileplume</td>
-  <td>grass,poison</td>
+  <td><span class="grass">grass</span>,<span class="poison">poison</span></td>
   <td class="number">50</td>
   <td class="number">75</td>
   <td class="number">221</td>
@@ -510,7 +510,7 @@
 <tr>
   <td class="number">46</td>
   <td>Paras</td>
-  <td>bug,grass</td>
+  <td><span class="bug">bug</span>,<span class="grass">grass</span></td>
   <td class="number">25</td>
   <td class="number">35</td>
   <td class="number">57</td>
@@ -521,7 +521,7 @@
 <tr>
   <td class="number">47</td>
   <td>Parasect</td>
-  <td>bug,grass</td>
+  <td><span class="bug">bug</span>,<span class="grass">grass</span></td>
   <td class="number">30</td>
   <td class="number">60</td>
   <td class="number">142</td>
@@ -532,7 +532,7 @@
 <tr>
   <td class="number">48</td>
   <td>Venonat</td>
-  <td>bug,poison</td>
+  <td><span class="bug">bug</span>,<span class="poison">poison</span></td>
   <td class="number">45</td>
   <td class="number">60</td>
   <td class="number">61</td>
@@ -543,7 +543,7 @@
 <tr>
   <td class="number">49</td>
   <td>Venomoth</td>
-  <td>bug,poison</td>
+  <td><span class="bug">bug</span>,<span class="poison">poison</span></td>
   <td class="number">90</td>
   <td class="number">70</td>
   <td class="number">158</td>
@@ -554,7 +554,7 @@
 <tr>
   <td class="number">50</td>
   <td>Diglett</td>
-  <td>ground</td>
+  <td><span class="ground">ground</span></td>
   <td class="number">95</td>
   <td class="number">10</td>
   <td class="number">53</td>
@@ -565,7 +565,7 @@
 <tr>
   <td class="number">51</td>
   <td>Dugtrio</td>
-  <td>ground</td>
+  <td><span class="ground">ground</span></td>
   <td class="number">120</td>
   <td class="number">35</td>
   <td class="number">149</td>
@@ -576,7 +576,7 @@
 <tr>
   <td class="number">52</td>
   <td>Meowth</td>
-  <td>normal</td>
+  <td><span class="normal">normal</span></td>
   <td class="number">90</td>
   <td class="number">40</td>
   <td class="number">58</td>
@@ -587,7 +587,7 @@
 <tr>
   <td class="number">53</td>
   <td>Persian</td>
-  <td>normal</td>
+  <td><span class="normal">normal</span></td>
   <td class="number">115</td>
   <td class="number">65</td>
   <td class="number">154</td>
@@ -598,7 +598,7 @@
 <tr>
   <td class="number">54</td>
   <td>Psyduck</td>
-  <td>water</td>
+  <td><span class="water">water</span></td>
   <td class="number">55</td>
   <td class="number">50</td>
   <td class="number">64</td>
@@ -609,7 +609,7 @@
 <tr>
   <td class="number">55</td>
   <td>Golduck</td>
-  <td>water</td>
+  <td><span class="water">water</span></td>
   <td class="number">85</td>
   <td class="number">80</td>
   <td class="number">175</td>
@@ -620,7 +620,7 @@
 <tr>
   <td class="number">56</td>
   <td>Mankey</td>
-  <td>fighting</td>
+  <td><span class="fighting">fighting</span></td>
   <td class="number">70</td>
   <td class="number">40</td>
   <td class="number">61</td>
@@ -631,7 +631,7 @@
 <tr>
   <td class="number">57</td>
   <td>Primeape</td>
-  <td>fighting</td>
+  <td><span class="fighting">fighting</span></td>
   <td class="number">95</td>
   <td class="number">65</td>
   <td class="number">159</td>
@@ -642,7 +642,7 @@
 <tr>
   <td class="number">58</td>
   <td>Growlithe</td>
-  <td>fire</td>
+  <td><span class="fire">fire</span></td>
   <td class="number">60</td>
   <td class="number">55</td>
   <td class="number">70</td>
@@ -653,7 +653,7 @@
 <tr>
   <td class="number">59</td>
   <td>Arcanine</td>
-  <td>fire</td>
+  <td><span class="fire">fire</span></td>
   <td class="number">95</td>
   <td class="number">90</td>
   <td class="number">194</td>
@@ -664,7 +664,7 @@
 <tr>
   <td class="number">60</td>
   <td>Poliwag</td>
-  <td>water</td>
+  <td><span class="water">water</span></td>
   <td class="number">90</td>
   <td class="number">40</td>
   <td class="number">60</td>
@@ -675,7 +675,7 @@
 <tr>
   <td class="number">61</td>
   <td>Poliwhirl</td>
-  <td>water</td>
+  <td><span class="water">water</span></td>
   <td class="number">90</td>
   <td class="number">65</td>
   <td class="number">135</td>
@@ -686,7 +686,7 @@
 <tr>
   <td class="number">62</td>
   <td>Poliwrath</td>
-  <td>water,fighting</td>
+  <td><span class="water">water</span>,<span class="fighting">fighting</span></td>
   <td class="number">70</td>
   <td class="number">90</td>
   <td class="number">230</td>
@@ -697,7 +697,7 @@
 <tr>
   <td class="number">63</td>
   <td>Abra</td>
-  <td>psychic</td>
+  <td><span class="psychic">psychic</span></td>
   <td class="number">90</td>
   <td class="number">25</td>
   <td class="number">62</td>
@@ -708,7 +708,7 @@
 <tr>
   <td class="number">64</td>
   <td>Kadabra</td>
-  <td>psychic</td>
+  <td><span class="psychic">psychic</span></td>
   <td class="number">105</td>
   <td class="number">40</td>
   <td class="number">140</td>
@@ -719,7 +719,7 @@
 <tr>
   <td class="number">65</td>
   <td>Alakazam</td>
-  <td>psychic</td>
+  <td><span class="psychic">psychic</span></td>
   <td class="number">120</td>
   <td class="number">55</td>
   <td class="number">225</td>
@@ -730,7 +730,7 @@
 <tr>
   <td class="number">66</td>
   <td>Machop</td>
-  <td>fighting</td>
+  <td><span class="fighting">fighting</span></td>
   <td class="number">35</td>
   <td class="number">70</td>
   <td class="number">61</td>
@@ -741,7 +741,7 @@
 <tr>
   <td class="number">67</td>
   <td>Machoke</td>
-  <td>fighting</td>
+  <td><span class="fighting">fighting</span></td>
   <td class="number">45</td>
   <td class="number">80</td>
   <td class="number">142</td>
@@ -752,7 +752,7 @@
 <tr>
   <td class="number">68</td>
   <td>Machamp</td>
-  <td>fighting</td>
+  <td><span class="fighting">fighting</span></td>
   <td class="number">55</td>
   <td class="number">90</td>
   <td class="number">227</td>
@@ -763,7 +763,7 @@
 <tr>
   <td class="number">69</td>
   <td>Bellsprout</td>
-  <td>grass,poison</td>
+  <td><span class="grass">grass</span>,<span class="poison">poison</span></td>
   <td class="number">40</td>
   <td class="number">50</td>
   <td class="number">60</td>
@@ -774,7 +774,7 @@
 <tr>
   <td class="number">70</td>
   <td>Weepinbell</td>
-  <td>grass,poison</td>
+  <td><span class="grass">grass</span>,<span class="poison">poison</span></td>
   <td class="number">55</td>
   <td class="number">65</td>
   <td class="number">137</td>
@@ -785,7 +785,7 @@
 <tr>
   <td class="number">71</td>
   <td>Victreebel</td>
-  <td>grass,poison</td>
+  <td><span class="grass">grass</span>,<span class="poison">poison</span></td>
   <td class="number">70</td>
   <td class="number">80</td>
   <td class="number">221</td>
@@ -796,7 +796,7 @@
 <tr>
   <td class="number">72</td>
   <td>Tentacool</td>
-  <td>water,poison</td>
+  <td><span class="water">water</span>,<span class="poison">poison</span></td>
   <td class="number">70</td>
   <td class="number">40</td>
   <td class="number">67</td>
@@ -807,7 +807,7 @@
 <tr>
   <td class="number">73</td>
   <td>Tentacruel</td>
-  <td>water,poison</td>
+  <td><span class="water">water</span>,<span class="poison">poison</span></td>
   <td class="number">100</td>
   <td class="number">80</td>
   <td class="number">180</td>
@@ -818,7 +818,7 @@
 <tr>
   <td class="number">74</td>
   <td>Geodude</td>
-  <td>rock,ground</td>
+  <td><span class="rock">rock</span>,<span class="ground">ground</span></td>
   <td class="number">20</td>
   <td class="number">40</td>
   <td class="number">60</td>
@@ -829,7 +829,7 @@
 <tr>
   <td class="number">75</td>
   <td>Graveler</td>
-  <td>rock,ground</td>
+  <td><span class="rock">rock</span>,<span class="ground">ground</span></td>
   <td class="number">35</td>
   <td class="number">55</td>
   <td class="number">137</td>
@@ -840,7 +840,7 @@
 <tr>
   <td class="number">76</td>
   <td>Golem</td>
-  <td>rock,ground</td>
+  <td><span class="rock">rock</span>,<span class="ground">ground</span></td>
   <td class="number">45</td>
   <td class="number">80</td>
   <td class="number">223</td>
@@ -851,7 +851,7 @@
 <tr>
   <td class="number">77</td>
   <td>Ponyta</td>
-  <td>fire</td>
+  <td><span class="fire">fire</span></td>
   <td class="number">90</td>
   <td class="number">50</td>
   <td class="number">82</td>
@@ -862,7 +862,7 @@
 <tr>
   <td class="number">78</td>
   <td>Rapidash</td>
-  <td>fire</td>
+  <td><span class="fire">fire</span></td>
   <td class="number">105</td>
   <td class="number">65</td>
   <td class="number">175</td>
@@ -873,7 +873,7 @@
 <tr>
   <td class="number">79</td>
   <td>Slowpoke</td>
-  <td>water,psychic</td>
+  <td><span class="water">water</span>,<span class="psychic">psychic</span></td>
   <td class="number">15</td>
   <td class="number">90</td>
   <td class="number">63</td>
@@ -884,7 +884,7 @@
 <tr>
   <td class="number">80</td>
   <td>Slowbro</td>
-  <td>water,psychic</td>
+  <td><span class="water">water</span>,<span class="psychic">psychic</span></td>
   <td class="number">30</td>
   <td class="number">95</td>
   <td class="number">172</td>
@@ -895,7 +895,7 @@
 <tr>
   <td class="number">81</td>
   <td>Magnemite</td>
-  <td>electric,steel</td>
+  <td><span class="electric">electric</span>,<span class="steel">steel</span></td>
   <td class="number">45</td>
   <td class="number">25</td>
   <td class="number">65</td>
@@ -906,7 +906,7 @@
 <tr>
   <td class="number">82</td>
   <td>Magneton</td>
-  <td>electric,steel</td>
+  <td><span class="electric">electric</span>,<span class="steel">steel</span></td>
   <td class="number">70</td>
   <td class="number">50</td>
   <td class="number">163</td>
@@ -917,7 +917,7 @@
 <tr>
   <td class="number">83</td>
   <td>Farfetchd</td>
-  <td>normal,flying</td>
+  <td><span class="normal">normal</span>,<span class="flying">flying</span></td>
   <td class="number">60</td>
   <td class="number">52</td>
   <td class="number">132</td>
@@ -928,7 +928,7 @@
 <tr>
   <td class="number">84</td>
   <td>Doduo</td>
-  <td>normal,flying</td>
+  <td><span class="normal">normal</span>,<span class="flying">flying</span></td>
   <td class="number">75</td>
   <td class="number">35</td>
   <td class="number">62</td>
@@ -939,7 +939,7 @@
 <tr>
   <td class="number">85</td>
   <td>Dodrio</td>
-  <td>normal,flying</td>
+  <td><span class="normal">normal</span>,<span class="flying">flying</span></td>
   <td class="number">110</td>
   <td class="number">60</td>
   <td class="number">165</td>
@@ -950,7 +950,7 @@
 <tr>
   <td class="number">86</td>
   <td>Seel</td>
-  <td>water</td>
+  <td><span class="water">water</span></td>
   <td class="number">45</td>
   <td class="number">65</td>
   <td class="number">65</td>
@@ -961,7 +961,7 @@
 <tr>
   <td class="number">87</td>
   <td>Dewgong</td>
-  <td>water,ice</td>
+  <td><span class="water">water</span>,<span class="ice">ice</span></td>
   <td class="number">70</td>
   <td class="number">90</td>
   <td class="number">166</td>
@@ -972,7 +972,7 @@
 <tr>
   <td class="number">88</td>
   <td>Grimer</td>
-  <td>poison</td>
+  <td><span class="poison">poison</span></td>
   <td class="number">25</td>
   <td class="number">80</td>
   <td class="number">65</td>
@@ -983,7 +983,7 @@
 <tr>
   <td class="number">89</td>
   <td>Muk</td>
-  <td>poison</td>
+  <td><span class="poison">poison</span></td>
   <td class="number">50</td>
   <td class="number">105</td>
   <td class="number">175</td>
@@ -994,7 +994,7 @@
 <tr>
   <td class="number">90</td>
   <td>Shellder</td>
-  <td>water</td>
+  <td><span class="water">water</span></td>
   <td class="number">40</td>
   <td class="number">30</td>
   <td class="number">61</td>
@@ -1005,7 +1005,7 @@
 <tr>
   <td class="number">91</td>
   <td>Cloyster</td>
-  <td>water,ice</td>
+  <td><span class="water">water</span>,<span class="ice">ice</span></td>
   <td class="number">70</td>
   <td class="number">50</td>
   <td class="number">184</td>
@@ -1016,7 +1016,7 @@
 <tr>
   <td class="number">92</td>
   <td>Gastly</td>
-  <td>ghost,poison</td>
+  <td><span class="ghost">ghost</span>,<span class="poison">poison</span></td>
   <td class="number">80</td>
   <td class="number">30</td>
   <td class="number">62</td>
@@ -1027,7 +1027,7 @@
 <tr>
   <td class="number">93</td>
   <td>Haunter</td>
-  <td>ghost,poison</td>
+  <td><span class="ghost">ghost</span>,<span class="poison">poison</span></td>
   <td class="number">95</td>
   <td class="number">45</td>
   <td class="number">142</td>
@@ -1038,7 +1038,7 @@
 <tr>
   <td class="number">94</td>
   <td>Gengar</td>
-  <td>ghost,poison</td>
+  <td><span class="ghost">ghost</span>,<span class="poison">poison</span></td>
   <td class="number">110</td>
   <td class="number">60</td>
   <td class="number">225</td>
@@ -1049,7 +1049,7 @@
 <tr>
   <td class="number">95</td>
   <td>Onix</td>
-  <td>rock,ground</td>
+  <td><span class="rock">rock</span>,<span class="ground">ground</span></td>
   <td class="number">70</td>
   <td class="number">35</td>
   <td class="number">77</td>
@@ -1060,7 +1060,7 @@
 <tr>
   <td class="number">96</td>
   <td>Drowzee</td>
-  <td>psychic</td>
+  <td><span class="psychic">psychic</span></td>
   <td class="number">42</td>
   <td class="number">60</td>
   <td class="number">66</td>
@@ -1071,7 +1071,7 @@
 <tr>
   <td class="number">97</td>
   <td>Hypno</td>
-  <td>psychic</td>
+  <td><span class="psychic">psychic</span></td>
   <td class="number">67</td>
   <td class="number">85</td>
   <td class="number">169</td>
@@ -1082,7 +1082,7 @@
 <tr>
   <td class="number">98</td>
   <td>Krabby</td>
-  <td>water</td>
+  <td><span class="water">water</span></td>
   <td class="number">50</td>
   <td class="number">30</td>
   <td class="number">65</td>
@@ -1093,7 +1093,7 @@
 <tr>
   <td class="number">99</td>
   <td>Kingler</td>
-  <td>water</td>
+  <td><span class="water">water</span></td>
   <td class="number">75</td>
   <td class="number">55</td>
   <td class="number">166</td>
@@ -1104,7 +1104,7 @@
 <tr>
   <td class="number">100</td>
   <td>Voltorb</td>
-  <td>electric</td>
+  <td><span class="electric">electric</span></td>
   <td class="number">100</td>
   <td class="number">40</td>
   <td class="number">66</td>
@@ -1115,7 +1115,7 @@
 <tr>
   <td class="number">101</td>
   <td>Electrode</td>
-  <td>electric</td>
+  <td><span class="electric">electric</span></td>
   <td class="number">150</td>
   <td class="number">60</td>
   <td class="number">172</td>
@@ -1126,7 +1126,7 @@
 <tr>
   <td class="number">102</td>
   <td>Exeggcute</td>
-  <td>grass,psychic</td>
+  <td><span class="grass">grass</span>,<span class="psychic">psychic</span></td>
   <td class="number">40</td>
   <td class="number">60</td>
   <td class="number">65</td>
@@ -1137,7 +1137,7 @@
 <tr>
   <td class="number">103</td>
   <td>Exeggutor</td>
-  <td>grass,psychic</td>
+  <td><span class="grass">grass</span>,<span class="psychic">psychic</span></td>
   <td class="number">55</td>
   <td class="number">95</td>
   <td class="number">186</td>
@@ -1148,7 +1148,7 @@
 <tr>
   <td class="number">104</td>
   <td>Cubone</td>
-  <td>ground</td>
+  <td><span class="ground">ground</span></td>
   <td class="number">35</td>
   <td class="number">50</td>
   <td class="number">64</td>
@@ -1159,7 +1159,7 @@
 <tr>
   <td class="number">105</td>
   <td>Marowak</td>
-  <td>ground</td>
+  <td><span class="ground">ground</span></td>
   <td class="number">45</td>
   <td class="number">60</td>
   <td class="number">149</td>
@@ -1170,7 +1170,7 @@
 <tr>
   <td class="number">106</td>
   <td>Hitmonlee</td>
-  <td>fighting</td>
+  <td><span class="fighting">fighting</span></td>
   <td class="number">87</td>
   <td class="number">50</td>
   <td class="number">159</td>
@@ -1181,7 +1181,7 @@
 <tr>
   <td class="number">107</td>
   <td>Hitmonchan</td>
-  <td>fighting</td>
+  <td><span class="fighting">fighting</span></td>
   <td class="number">76</td>
   <td class="number">50</td>
   <td class="number">159</td>
@@ -1192,7 +1192,7 @@
 <tr>
   <td class="number">108</td>
   <td>Lickitung</td>
-  <td>normal</td>
+  <td><span class="normal">normal</span></td>
   <td class="number">30</td>
   <td class="number">90</td>
   <td class="number">77</td>
@@ -1203,7 +1203,7 @@
 <tr>
   <td class="number">109</td>
   <td>Koffing</td>
-  <td>poison</td>
+  <td><span class="poison">poison</span></td>
   <td class="number">35</td>
   <td class="number">40</td>
   <td class="number">68</td>
@@ -1214,7 +1214,7 @@
 <tr>
   <td class="number">110</td>
   <td>Weezing</td>
-  <td>poison</td>
+  <td><span class="poison">poison</span></td>
   <td class="number">60</td>
   <td class="number">65</td>
   <td class="number">172</td>
@@ -1225,7 +1225,7 @@
 <tr>
   <td class="number">111</td>
   <td>Rhyhorn</td>
-  <td>ground,rock</td>
+  <td><span class="ground">ground</span>,<span class="rock">rock</span></td>
   <td class="number">25</td>
   <td class="number">80</td>
   <td class="number">69</td>
@@ -1236,7 +1236,7 @@
 <tr>
   <td class="number">112</td>
   <td>Rhydon</td>
-  <td>ground,rock</td>
+  <td><span class="ground">ground</span>,<span class="rock">rock</span></td>
   <td class="number">40</td>
   <td class="number">105</td>
   <td class="number">170</td>
@@ -1247,7 +1247,7 @@
 <tr>
   <td class="number">113</td>
   <td>Chansey</td>
-  <td>normal</td>
+  <td><span class="normal">normal</span></td>
   <td class="number">50</td>
   <td class="number">250</td>
   <td class="number">395</td>
@@ -1258,7 +1258,7 @@
 <tr>
   <td class="number">114</td>
   <td>Tangela</td>
-  <td>grass</td>
+  <td><span class="grass">grass</span></td>
   <td class="number">60</td>
   <td class="number">65</td>
   <td class="number">87</td>
@@ -1269,7 +1269,7 @@
 <tr>
   <td class="number">115</td>
   <td>Kangaskhan</td>
-  <td>normal</td>
+  <td><span class="normal">normal</span></td>
   <td class="number">90</td>
   <td class="number">105</td>
   <td class="number">172</td>
@@ -1280,7 +1280,7 @@
 <tr>
   <td class="number">116</td>
   <td>Horsea</td>
-  <td>water</td>
+  <td><span class="water">water</span></td>
   <td class="number">60</td>
   <td class="number">30</td>
   <td class="number">59</td>
@@ -1291,7 +1291,7 @@
 <tr>
   <td class="number">117</td>
   <td>Seadra</td>
-  <td>water</td>
+  <td><span class="water">water</span></td>
   <td class="number">85</td>
   <td class="number">55</td>
   <td class="number">154</td>
@@ -1302,7 +1302,7 @@
 <tr>
   <td class="number">118</td>
   <td>Goldeen</td>
-  <td>water</td>
+  <td><span class="water">water</span></td>
   <td class="number">63</td>
   <td class="number">45</td>
   <td class="number">64</td>
@@ -1313,7 +1313,7 @@
 <tr>
   <td class="number">119</td>
   <td>Seaking</td>
-  <td>water</td>
+  <td><span class="water">water</span></td>
   <td class="number">68</td>
   <td class="number">80</td>
   <td class="number">158</td>
@@ -1324,7 +1324,7 @@
 <tr>
   <td class="number">120</td>
   <td>Staryu</td>
-  <td>water</td>
+  <td><span class="water">water</span></td>
   <td class="number">85</td>
   <td class="number">30</td>
   <td class="number">68</td>
@@ -1335,7 +1335,7 @@
 <tr>
   <td class="number">121</td>
   <td>Starmie</td>
-  <td>water,psychic</td>
+  <td><span class="water">water</span>,<span class="psychic">psychic</span></td>
   <td class="number">115</td>
   <td class="number">60</td>
   <td class="number">182</td>
@@ -1346,7 +1346,7 @@
 <tr>
   <td class="number">122</td>
   <td>Mr-mime</td>
-  <td>psychic,fairy</td>
+  <td><span class="psychic">psychic</span>,<span class="fairy">fairy</span></td>
   <td class="number">90</td>
   <td class="number">40</td>
   <td class="number">161</td>
@@ -1357,7 +1357,7 @@
 <tr>
   <td class="number">123</td>
   <td>Scyther</td>
-  <td>bug,flying</td>
+  <td><span class="bug">bug</span>,<span class="flying">flying</span></td>
   <td class="number">105</td>
   <td class="number">70</td>
   <td class="number">100</td>
@@ -1368,7 +1368,7 @@
 <tr>
   <td class="number">124</td>
   <td>Jynx</td>
-  <td>ice,psychic</td>
+  <td><span class="ice">ice</span>,<span class="psychic">psychic</span></td>
   <td class="number">95</td>
   <td class="number">65</td>
   <td class="number">159</td>
@@ -1379,7 +1379,7 @@
 <tr>
   <td class="number">125</td>
   <td>Electabuzz</td>
-  <td>electric</td>
+  <td><span class="electric">electric</span></td>
   <td class="number">105</td>
   <td class="number">65</td>
   <td class="number">172</td>
@@ -1390,7 +1390,7 @@
 <tr>
   <td class="number">126</td>
   <td>Magmar</td>
-  <td>fire</td>
+  <td><span class="fire">fire</span></td>
   <td class="number">93</td>
   <td class="number">65</td>
   <td class="number">173</td>
@@ -1401,7 +1401,7 @@
 <tr>
   <td class="number">127</td>
   <td>Pinsir</td>
-  <td>bug</td>
+  <td><span class="bug">bug</span></td>
   <td class="number">85</td>
   <td class="number">65</td>
   <td class="number">175</td>
@@ -1412,7 +1412,7 @@
 <tr>
   <td class="number">128</td>
   <td>Tauros</td>
-  <td>normal</td>
+  <td><span class="normal">normal</span></td>
   <td class="number">110</td>
   <td class="number">75</td>
   <td class="number">172</td>
@@ -1423,7 +1423,7 @@
 <tr>
   <td class="number">129</td>
   <td>Magikarp</td>
-  <td>water</td>
+  <td><span class="water">water</span></td>
   <td class="number">80</td>
   <td class="number">20</td>
   <td class="number">40</td>
@@ -1434,7 +1434,7 @@
 <tr>
   <td class="number">130</td>
   <td>Gyarados</td>
-  <td>water,flying</td>
+  <td><span class="water">water</span>,<span class="flying">flying</span></td>
   <td class="number">81</td>
   <td class="number">95</td>
   <td class="number">189</td>
@@ -1445,7 +1445,7 @@
 <tr>
   <td class="number">131</td>
   <td>Lapras</td>
-  <td>water,ice</td>
+  <td><span class="water">water</span>,<span class="ice">ice</span></td>
   <td class="number">60</td>
   <td class="number">130</td>
   <td class="number">187</td>
@@ -1456,7 +1456,7 @@
 <tr>
   <td class="number">132</td>
   <td>Ditto</td>
-  <td>normal</td>
+  <td><span class="normal">normal</span></td>
   <td class="number">48</td>
   <td class="number">48</td>
   <td class="number">101</td>
@@ -1467,7 +1467,7 @@
 <tr>
   <td class="number">133</td>
   <td>Eevee</td>
-  <td>normal</td>
+  <td><span class="normal">normal</span></td>
   <td class="number">55</td>
   <td class="number">55</td>
   <td class="number">65</td>
@@ -1478,7 +1478,7 @@
 <tr>
   <td class="number">134</td>
   <td>Vaporeon</td>
-  <td>water</td>
+  <td><span class="water">water</span></td>
   <td class="number">65</td>
   <td class="number">130</td>
   <td class="number">184</td>
@@ -1489,7 +1489,7 @@
 <tr>
   <td class="number">135</td>
   <td>Jolteon</td>
-  <td>electric</td>
+  <td><span class="electric">electric</span></td>
   <td class="number">130</td>
   <td class="number">65</td>
   <td class="number">184</td>
@@ -1500,7 +1500,7 @@
 <tr>
   <td class="number">136</td>
   <td>Flareon</td>
-  <td>fire</td>
+  <td><span class="fire">fire</span></td>
   <td class="number">65</td>
   <td class="number">65</td>
   <td class="number">184</td>
@@ -1511,7 +1511,7 @@
 <tr>
   <td class="number">137</td>
   <td>Porygon</td>
-  <td>normal</td>
+  <td><span class="normal">normal</span></td>
   <td class="number">40</td>
   <td class="number">65</td>
   <td class="number">79</td>
@@ -1522,7 +1522,7 @@
 <tr>
   <td class="number">138</td>
   <td>Omanyte</td>
-  <td>rock,water</td>
+  <td><span class="rock">rock</span>,<span class="water">water</span></td>
   <td class="number">35</td>
   <td class="number">35</td>
   <td class="number">71</td>
@@ -1533,7 +1533,7 @@
 <tr>
   <td class="number">139</td>
   <td>Omastar</td>
-  <td>rock,water</td>
+  <td><span class="rock">rock</span>,<span class="water">water</span></td>
   <td class="number">55</td>
   <td class="number">70</td>
   <td class="number">173</td>
@@ -1544,7 +1544,7 @@
 <tr>
   <td class="number">140</td>
   <td>Kabuto</td>
-  <td>rock,water</td>
+  <td><span class="rock">rock</span>,<span class="water">water</span></td>
   <td class="number">55</td>
   <td class="number">30</td>
   <td class="number">71</td>
@@ -1555,7 +1555,7 @@
 <tr>
   <td class="number">141</td>
   <td>Kabutops</td>
-  <td>rock,water</td>
+  <td><span class="rock">rock</span>,<span class="water">water</span></td>
   <td class="number">80</td>
   <td class="number">60</td>
   <td class="number">173</td>
@@ -1566,7 +1566,7 @@
 <tr>
   <td class="number">142</td>
   <td>Aerodactyl</td>
-  <td>rock,flying</td>
+  <td><span class="rock">rock</span>,<span class="flying">flying</span></td>
   <td class="number">130</td>
   <td class="number">80</td>
   <td class="number">180</td>
@@ -1577,7 +1577,7 @@
 <tr>
   <td class="number">143</td>
   <td>Snorlax</td>
-  <td>normal</td>
+  <td><span class="normal">normal</span></td>
   <td class="number">30</td>
   <td class="number">160</td>
   <td class="number">189</td>
@@ -1588,7 +1588,7 @@
 <tr>
   <td class="number">144</td>
   <td>Articuno</td>
-  <td>ice,flying</td>
+  <td><span class="ice">ice</span>,<span class="flying">flying</span></td>
   <td class="number">85</td>
   <td class="number">90</td>
   <td class="number">261</td>
@@ -1599,7 +1599,7 @@
 <tr>
   <td class="number">145</td>
   <td>Zapdos</td>
-  <td>electric,flying</td>
+  <td><span class="electric">electric</span>,<span class="flying">flying</span></td>
   <td class="number">100</td>
   <td class="number">90</td>
   <td class="number">261</td>
@@ -1610,7 +1610,7 @@
 <tr>
   <td class="number">146</td>
   <td>Moltres</td>
-  <td>fire,flying</td>
+  <td><span class="fire">fire</span>,<span class="flying">flying</span></td>
   <td class="number">90</td>
   <td class="number">90</td>
   <td class="number">261</td>
@@ -1621,7 +1621,7 @@
 <tr>
   <td class="number">147</td>
   <td>Dratini</td>
-  <td>dragon</td>
+  <td><span class="dragon">dragon</span></td>
   <td class="number">50</td>
   <td class="number">41</td>
   <td class="number">60</td>
@@ -1631,8 +1631,8 @@
 </tr>
 <tr>
   <td class="number">148</td>
-  <td>Dragonair</td>
-  <td>dragon</td>
+  <td><span class="Dragon">Dragon</span>air</td>
+  <td><span class="dragon">dragon</span></td>
   <td class="number">70</td>
   <td class="number">61</td>
   <td class="number">147</td>
@@ -1642,8 +1642,8 @@
 </tr>
 <tr>
   <td class="number">149</td>
-  <td>Dragonite</td>
-  <td>dragon,flying</td>
+  <td><span class="Dragon">Dragon</span>ite</td>
+  <td><span class="dragon">dragon</span>,<span class="flying">flying</span></td>
   <td class="number">80</td>
   <td class="number">91</td>
   <td class="number">270</td>
@@ -1654,7 +1654,7 @@
 <tr>
   <td class="number">150</td>
   <td>Mewtwo</td>
-  <td>psychic</td>
+  <td><span class="psychic">psychic</span></td>
   <td class="number">130</td>
   <td class="number">106</td>
   <td class="number">306</td>
@@ -1665,7 +1665,7 @@
 <tr>
   <td class="number">151</td>
   <td>Mew</td>
-  <td>psychic</td>
+  <td><span class="psychic">psychic</span></td>
   <td class="number">100</td>
   <td class="number">100</td>
   <td class="number">270</td>
@@ -1676,7 +1676,7 @@
 <tr>
   <td class="number">152</td>
   <td>Chikorita</td>
-  <td>grass</td>
+  <td><span class="grass">grass</span></td>
   <td class="number">45</td>
   <td class="number">45</td>
   <td class="number">64</td>
@@ -1687,7 +1687,7 @@
 <tr>
   <td class="number">153</td>
   <td>Bayleef</td>
-  <td>grass</td>
+  <td><span class="grass">grass</span></td>
   <td class="number">60</td>
   <td class="number">60</td>
   <td class="number">142</td>
@@ -1698,7 +1698,7 @@
 <tr>
   <td class="number">154</td>
   <td>Meganium</td>
-  <td>grass</td>
+  <td><span class="grass">grass</span></td>
   <td class="number">80</td>
   <td class="number">80</td>
   <td class="number">236</td>
@@ -1709,7 +1709,7 @@
 <tr>
   <td class="number">155</td>
   <td>Cyndaquil</td>
-  <td>fire</td>
+  <td><span class="fire">fire</span></td>
   <td class="number">65</td>
   <td class="number">39</td>
   <td class="number">62</td>
@@ -1720,7 +1720,7 @@
 <tr>
   <td class="number">156</td>
   <td>Quilava</td>
-  <td>fire</td>
+  <td><span class="fire">fire</span></td>
   <td class="number">80</td>
   <td class="number">58</td>
   <td class="number">142</td>
@@ -1731,7 +1731,7 @@
 <tr>
   <td class="number">157</td>
   <td>Typhlosion</td>
-  <td>fire</td>
+  <td><span class="fire">fire</span></td>
   <td class="number">100</td>
   <td class="number">78</td>
   <td class="number">240</td>
@@ -1742,7 +1742,7 @@
 <tr>
   <td class="number">158</td>
   <td>Totodile</td>
-  <td>water</td>
+  <td><span class="water">water</span></td>
   <td class="number">43</td>
   <td class="number">50</td>
   <td class="number">63</td>
@@ -1753,7 +1753,7 @@
 <tr>
   <td class="number">159</td>
   <td>Croconaw</td>
-  <td>water</td>
+  <td><span class="water">water</span></td>
   <td class="number">58</td>
   <td class="number">65</td>
   <td class="number">142</td>
@@ -1764,7 +1764,7 @@
 <tr>
   <td class="number">160</td>
   <td>Feraligatr</td>
-  <td>water</td>
+  <td><span class="water">water</span></td>
   <td class="number">78</td>
   <td class="number">85</td>
   <td class="number">239</td>
@@ -1775,7 +1775,7 @@
 <tr>
   <td class="number">161</td>
   <td>Sentret</td>
-  <td>normal</td>
+  <td><span class="normal">normal</span></td>
   <td class="number">20</td>
   <td class="number">35</td>
   <td class="number">43</td>
@@ -1786,7 +1786,7 @@
 <tr>
   <td class="number">162</td>
   <td>Furret</td>
-  <td>normal</td>
+  <td><span class="normal">normal</span></td>
   <td class="number">90</td>
   <td class="number">85</td>
   <td class="number">145</td>
@@ -1797,7 +1797,7 @@
 <tr>
   <td class="number">163</td>
   <td>Hoothoot</td>
-  <td>normal,flying</td>
+  <td><span class="normal">normal</span>,<span class="flying">flying</span></td>
   <td class="number">50</td>
   <td class="number">60</td>
   <td class="number">52</td>
@@ -1808,7 +1808,7 @@
 <tr>
   <td class="number">164</td>
   <td>Noctowl</td>
-  <td>normal,flying</td>
+  <td><span class="normal">normal</span>,<span class="flying">flying</span></td>
   <td class="number">70</td>
   <td class="number">100</td>
   <td class="number">158</td>
@@ -1819,7 +1819,7 @@
 <tr>
   <td class="number">165</td>
   <td>Ledyba</td>
-  <td>bug,flying</td>
+  <td><span class="bug">bug</span>,<span class="flying">flying</span></td>
   <td class="number">55</td>
   <td class="number">40</td>
   <td class="number">53</td>
@@ -1830,7 +1830,7 @@
 <tr>
   <td class="number">166</td>
   <td>Ledian</td>
-  <td>bug,flying</td>
+  <td><span class="bug">bug</span>,<span class="flying">flying</span></td>
   <td class="number">85</td>
   <td class="number">55</td>
   <td class="number">137</td>
@@ -1841,7 +1841,7 @@
 <tr>
   <td class="number">167</td>
   <td>Spinarak</td>
-  <td>bug,poison</td>
+  <td><span class="bug">bug</span>,<span class="poison">poison</span></td>
   <td class="number">30</td>
   <td class="number">40</td>
   <td class="number">50</td>
@@ -1852,7 +1852,7 @@
 <tr>
   <td class="number">168</td>
   <td>Ariados</td>
-  <td>bug,poison</td>
+  <td><span class="bug">bug</span>,<span class="poison">poison</span></td>
   <td class="number">40</td>
   <td class="number">70</td>
   <td class="number">140</td>
@@ -1863,7 +1863,7 @@
 <tr>
   <td class="number">169</td>
   <td>Crobat</td>
-  <td>poison,flying</td>
+  <td><span class="poison">poison</span>,<span class="flying">flying</span></td>
   <td class="number">130</td>
   <td class="number">85</td>
   <td class="number">241</td>
@@ -1874,7 +1874,7 @@
 <tr>
   <td class="number">170</td>
   <td>Chinchou</td>
-  <td>water,electric</td>
+  <td><span class="water">water</span>,<span class="electric">electric</span></td>
   <td class="number">67</td>
   <td class="number">75</td>
   <td class="number">66</td>
@@ -1885,7 +1885,7 @@
 <tr>
   <td class="number">171</td>
   <td>Lanturn</td>
-  <td>water,electric</td>
+  <td><span class="water">water</span>,<span class="electric">electric</span></td>
   <td class="number">67</td>
   <td class="number">125</td>
   <td class="number">161</td>
@@ -1896,7 +1896,7 @@
 <tr>
   <td class="number">172</td>
   <td>Pichu</td>
-  <td>electric</td>
+  <td><span class="electric">electric</span></td>
   <td class="number">60</td>
   <td class="number">20</td>
   <td class="number">41</td>
@@ -1907,7 +1907,7 @@
 <tr>
   <td class="number">173</td>
   <td>Cleffa</td>
-  <td>fairy</td>
+  <td><span class="fairy">fairy</span></td>
   <td class="number">15</td>
   <td class="number">50</td>
   <td class="number">44</td>
@@ -1918,7 +1918,7 @@
 <tr>
   <td class="number">174</td>
   <td>Igglybuff</td>
-  <td>normal,fairy</td>
+  <td><span class="normal">normal</span>,<span class="fairy">fairy</span></td>
   <td class="number">15</td>
   <td class="number">90</td>
   <td class="number">42</td>
@@ -1929,7 +1929,7 @@
 <tr>
   <td class="number">175</td>
   <td>Togepi</td>
-  <td>fairy</td>
+  <td><span class="fairy">fairy</span></td>
   <td class="number">20</td>
   <td class="number">35</td>
   <td class="number">49</td>
@@ -1940,7 +1940,7 @@
 <tr>
   <td class="number">176</td>
   <td>Togetic</td>
-  <td>fairy,flying</td>
+  <td><span class="fairy">fairy</span>,<span class="flying">flying</span></td>
   <td class="number">40</td>
   <td class="number">55</td>
   <td class="number">142</td>
@@ -1951,7 +1951,7 @@
 <tr>
   <td class="number">177</td>
   <td>Natu</td>
-  <td>psychic,flying</td>
+  <td><span class="psychic">psychic</span>,<span class="flying">flying</span></td>
   <td class="number">70</td>
   <td class="number">40</td>
   <td class="number">64</td>
@@ -1962,7 +1962,7 @@
 <tr>
   <td class="number">178</td>
   <td>Xatu</td>
-  <td>psychic,flying</td>
+  <td><span class="psychic">psychic</span>,<span class="flying">flying</span></td>
   <td class="number">95</td>
   <td class="number">65</td>
   <td class="number">165</td>
@@ -1973,7 +1973,7 @@
 <tr>
   <td class="number">179</td>
   <td>Mareep</td>
-  <td>electric</td>
+  <td><span class="electric">electric</span></td>
   <td class="number">35</td>
   <td class="number">55</td>
   <td class="number">56</td>
@@ -1984,7 +1984,7 @@
 <tr>
   <td class="number">180</td>
   <td>Flaaffy</td>
-  <td>electric</td>
+  <td><span class="electric">electric</span></td>
   <td class="number">45</td>
   <td class="number">70</td>
   <td class="number">128</td>
@@ -1995,7 +1995,7 @@
 <tr>
   <td class="number">181</td>
   <td>Ampharos</td>
-  <td>electric</td>
+  <td><span class="electric">electric</span></td>
   <td class="number">55</td>
   <td class="number">90</td>
   <td class="number">230</td>
@@ -2006,7 +2006,7 @@
 <tr>
   <td class="number">182</td>
   <td>Bellossom</td>
-  <td>grass</td>
+  <td><span class="grass">grass</span></td>
   <td class="number">50</td>
   <td class="number">75</td>
   <td class="number">221</td>
@@ -2017,7 +2017,7 @@
 <tr>
   <td class="number">183</td>
   <td>Marill</td>
-  <td>water,fairy</td>
+  <td><span class="water">water</span>,<span class="fairy">fairy</span></td>
   <td class="number">40</td>
   <td class="number">70</td>
   <td class="number">88</td>
@@ -2028,7 +2028,7 @@
 <tr>
   <td class="number">184</td>
   <td>Azumarill</td>
-  <td>water,fairy</td>
+  <td><span class="water">water</span>,<span class="fairy">fairy</span></td>
   <td class="number">50</td>
   <td class="number">100</td>
   <td class="number">189</td>
@@ -2039,7 +2039,7 @@
 <tr>
   <td class="number">185</td>
   <td>Sudowoodo</td>
-  <td>rock</td>
+  <td><span class="rock">rock</span></td>
   <td class="number">30</td>
   <td class="number">70</td>
   <td class="number">144</td>
@@ -2050,7 +2050,7 @@
 <tr>
   <td class="number">186</td>
   <td>Politoed</td>
-  <td>water</td>
+  <td><span class="water">water</span></td>
   <td class="number">70</td>
   <td class="number">90</td>
   <td class="number">225</td>
@@ -2061,7 +2061,7 @@
 <tr>
   <td class="number">187</td>
   <td>Hoppip</td>
-  <td>grass,flying</td>
+  <td><span class="grass">grass</span>,<span class="flying">flying</span></td>
   <td class="number">50</td>
   <td class="number">35</td>
   <td class="number">50</td>
@@ -2072,7 +2072,7 @@
 <tr>
   <td class="number">188</td>
   <td>Skiploom</td>
-  <td>grass,flying</td>
+  <td><span class="grass">grass</span>,<span class="flying">flying</span></td>
   <td class="number">80</td>
   <td class="number">55</td>
   <td class="number">119</td>
@@ -2083,7 +2083,7 @@
 <tr>
   <td class="number">189</td>
   <td>Jumpluff</td>
-  <td>grass,flying</td>
+  <td><span class="grass">grass</span>,<span class="flying">flying</span></td>
   <td class="number">110</td>
   <td class="number">75</td>
   <td class="number">207</td>
@@ -2094,7 +2094,7 @@
 <tr>
   <td class="number">190</td>
   <td>Aipom</td>
-  <td>normal</td>
+  <td><span class="normal">normal</span></td>
   <td class="number">85</td>
   <td class="number">55</td>
   <td class="number">72</td>
@@ -2105,7 +2105,7 @@
 <tr>
   <td class="number">191</td>
   <td>Sunkern</td>
-  <td>grass</td>
+  <td><span class="grass">grass</span></td>
   <td class="number">30</td>
   <td class="number">30</td>
   <td class="number">36</td>
@@ -2116,7 +2116,7 @@
 <tr>
   <td class="number">192</td>
   <td>Sunflora</td>
-  <td>grass</td>
+  <td><span class="grass">grass</span></td>
   <td class="number">30</td>
   <td class="number">75</td>
   <td class="number">149</td>
@@ -2127,7 +2127,7 @@
 <tr>
   <td class="number">193</td>
   <td>Yanma</td>
-  <td>bug,flying</td>
+  <td><span class="bug">bug</span>,<span class="flying">flying</span></td>
   <td class="number">95</td>
   <td class="number">65</td>
   <td class="number">78</td>
@@ -2138,7 +2138,7 @@
 <tr>
   <td class="number">194</td>
   <td>Wooper</td>
-  <td>water,ground</td>
+  <td><span class="water">water</span>,<span class="ground">ground</span></td>
   <td class="number">15</td>
   <td class="number">55</td>
   <td class="number">42</td>
@@ -2149,7 +2149,7 @@
 <tr>
   <td class="number">195</td>
   <td>Quagsire</td>
-  <td>water,ground</td>
+  <td><span class="water">water</span>,<span class="ground">ground</span></td>
   <td class="number">35</td>
   <td class="number">95</td>
   <td class="number">151</td>
@@ -2160,7 +2160,7 @@
 <tr>
   <td class="number">196</td>
   <td>Espeon</td>
-  <td>psychic</td>
+  <td><span class="psychic">psychic</span></td>
   <td class="number">110</td>
   <td class="number">65</td>
   <td class="number">184</td>
@@ -2171,7 +2171,7 @@
 <tr>
   <td class="number">197</td>
   <td>Umbreon</td>
-  <td>dark</td>
+  <td><span class="dark">dark</span></td>
   <td class="number">65</td>
   <td class="number">95</td>
   <td class="number">184</td>
@@ -2182,7 +2182,7 @@
 <tr>
   <td class="number">198</td>
   <td>Murkrow</td>
-  <td>dark,flying</td>
+  <td><span class="dark">dark</span>,<span class="flying">flying</span></td>
   <td class="number">91</td>
   <td class="number">60</td>
   <td class="number">81</td>
@@ -2193,7 +2193,7 @@
 <tr>
   <td class="number">199</td>
   <td>Slowking</td>
-  <td>water,psychic</td>
+  <td><span class="water">water</span>,<span class="psychic">psychic</span></td>
   <td class="number">30</td>
   <td class="number">95</td>
   <td class="number">172</td>

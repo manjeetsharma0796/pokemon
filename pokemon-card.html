@@ -14,38 +14,62 @@
     }
 
     .card {
-      /* height: 25em; */
       width: 15em;
       background-color: rgb(173, 217, 230);
       margin: auto;
       padding-top: 1em;
+      padding-bottom: 1em;
+      border-spacing: 1em;
+      display: table;
     }
 
     .card-logo {
-      height: 15em;
-      width: 13em;
+      height: 12em;
+      width: 12em;
       background-color: rgb(215, 235, 242);
       margin: auto;
-      margin-bottom: 0.5em;
+      /* margin-bottom: 0.5em; */
     }
 
     .card-details {
       margin: auto;
+      width: 13em;
     }
 
     .card-name {
       text-align: center;
-      border: 1px solid red;
-
+      font-weight: 400;
+      font-size: 1.2em;
+      margin: 0.5em 0em;
     }
 
     tbody th {
-      font-weight: 400;
+      font-weight: 600;
+      font-size: 0.9em;
       text-align: left;
     }
+
     tbody td {
-      font-weight: 300;
+      font-weight: 400;
+      font-size: 0.9em;
       text-align: right;
+    }
+
+    .fake-table {
+      display: table;
+      width:600px;
+    }
+    .table-row {
+      display: table-row;
+    }
+    .table-row>div {
+      display: table-cell;
+      box-sizing: border-box;
+    }
+    .fake-table {
+      border-spacing: 1em;
+      margin: auto;
+      width: 63em;
     }
   </style>
 </head>
@@ -54,61 +78,221 @@
   <header class="head">
     <h1>Pokedex</h1>
   </header>
-  <div class="card">
-    <div class="card-logo">
-    </div>
-    <table class="card-details">
-      <thead>
-        <tr>
-          <th class="card-name">
-            Bulbasaur
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
+  <div class="fake-table">
 
-          <th>
-            Types
-          </th>
+    <section class="table-row">
 
-          <td>
-            Grass,Poison
-          </td>
-        </tr>
-        <tr>
-          <th>
-            Weight
-          </th>
-          <td>
-            50
-          </td>
-        </tr>
-        <tr>
-          <th>
-            HP
-          </th>
-          <td>20</td>
-        </tr>
-        <tr>
-          <th>
-            XP
-          </th>
-          <td>20</td>
-        </tr>
-        <tr>
-          <th>
-            Attack
-          </th>
-          <td>20</td>
-        </tr>
-        <tr>
-          <th>Defense</th>
-          <td>20</td>
-        </tr>
-      </tbody>
-    </table>
+      <div class="card cell">
+        <div class="card-logo"></div>
+        <p class="card-name">
+          Bulbasaur
+        </p>
+        <table class="card-details">
+
+          <tbody>
+            <tr>
+
+              <th>
+                Types
+              </th>
+
+              <td>
+                Grass,Poison
+              </td>
+            </tr>
+            <tr>
+              <th>
+                Weight
+              </th>
+              <td>
+                50
+              </td>
+            </tr>
+            <tr>
+              <th>
+                HP
+              </th>
+              <td>20</td>
+            </tr>
+            <tr>
+              <th>
+                XP
+              </th>
+              <td>20</td>
+            </tr>
+            <tr>
+              <th>
+                Attack
+              </th>
+              <td>20</td>
+            </tr>
+            <tr>
+              <th>Defense</th>
+              <td>20</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card cell">
+        <div class="card-logo">
+        </div>
+        <p class="card-name">
+          Bulbasaur
+        </p>
+        <table class="card-details">
+
+          <tbody>
+            <tr>
+
+              <th>
+                Types
+              </th>
+
+              <td>
+                Grass,Poison
+              </td>
+            </tr>
+            <tr>
+              <th>
+                Weight
+              </th>
+              <td>
+                50
+              </td>
+            </tr>
+            <tr>
+              <th>
+                HP
+              </th>
+              <td>20</td>
+            </tr>
+            <tr>
+              <th>
+                XP
+              </th>
+              <td>20</td>
+            </tr>
+            <tr>
+              <th>
+                Attack
+              </th>
+              <td>20</td>
+            </tr>
+            <tr>
+              <th>Defense</th>
+              <td>20</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card cell">
+        <div class="card-logo">
+        </div>
+        <p class="card-name">
+          Bulbasaur
+        </p>
+        <table class="card-details">
+
+          <tbody>
+            <tr>
+
+              <th>
+                Types
+              </th>
+
+              <td>
+                Grass,Poison
+              </td>
+            </tr>
+            <tr>
+              <th>
+                Weight
+              </th>
+              <td>
+                50
+              </td>
+            </tr>
+            <tr>
+              <th>
+                HP
+              </th>
+              <td>20</td>
+            </tr>
+            <tr>
+              <th>
+                XP
+              </th>
+              <td>20</td>
+            </tr>
+            <tr>
+              <th>
+                Attack
+              </th>
+              <td>20</td>
+            </tr>
+            <tr>
+              <th>Defense</th>
+              <td>20</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card cell">
+        <div class="card-logo">
+        </div>
+        <p class="card-name">
+          Bulbasaur
+        </p>
+        <table class="card-details">
+
+          <tbody>
+            <tr>
+
+              <th>
+                Types
+              </th>
+
+              <td>
+                Grass,Poison
+              </td>
+            </tr>
+            <tr>
+              <th>
+                Weight
+              </th>
+              <td>
+                50
+              </td>
+            </tr>
+            <tr>
+              <th>
+                HP
+              </th>
+              <td>20</td>
+            </tr>
+            <tr>
+              <th>
+                XP
+              </th>
+              <td>20</td>
+            </tr>
+            <tr>
+              <th>
+                Attack
+              </th>
+              <td>20</td>
+            </tr>
+            <tr>
+              <th>Defense</th>
+              <td>20</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
   </div>
+
 </body>
 
 </html>
