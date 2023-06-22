@@ -1,3 +1,0 @@
-<tr><td>id</td><td>name</td><td>types</td><td>speed</td><td>hp</td><td>base_experience</td><td>attack</td><td>defense</td><td>weight</td></tr>
-<tr><td></td></tr>
-<tr><td>1</td><td>bulbasaur</td><td>bd><td>80</td><td>80</td><td>236</td><td>82</td><td>83</td><td>1000</td></tr>
